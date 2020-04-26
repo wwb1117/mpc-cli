@@ -1,10 +1,10 @@
 {
   "name": "wwb_mpc_cli",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "妈妈去哪儿项目脚手架",
   "main": "src/main.js",
   "bin": {
-    "wwb-mpc-cli": "./bin/www"
+    "wwb_mpc_cli": "./bin/www"
   },
   "scripts": {
     "lint": "eslint src",

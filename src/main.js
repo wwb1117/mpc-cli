@@ -9,19 +9,16 @@ const actionsMap = {
 		description: 'create project',
 		alias: 'wwb',
 		examples: [
-			'mpc-cli create <template-name>',
+			'wwb_mpc_cli create <template-name>',
 		],
 	},
 	config: { // 配置配置文件
 		description: 'config info',
 		alias: 'conf',
 		examples: [
-			'mpc-cli config get <k>',
+			'wwb_mpc_cli config get <k>',
 		],
-	},
-	'*': {
-		description: 'command not found',
-	},
+	}
 };
 // 循环创建命令
 Object.keys(actionsMap).forEach((action) => {
